@@ -26,7 +26,7 @@ export default function RegisterScreen() {
       Alert.alert(
         'Success', 
         'Account created successfully! Please login.',
-        [{ text: 'OK', onPress: () => router.push('/(auth)/login') }]
+        [{ text: 'OK', onPress: () => router.push('/auth/login') }]
       );
     } catch (error: any) {
       Alert.alert('Registration Failed', error.message);
@@ -46,7 +46,7 @@ export default function RegisterScreen() {
         onPasswordChange={setPassword}
         onUsernameChange={setUsername}
         onSubmit={handleRegister}
-        onSwitchMode={() => router.push('/(auth)/login')}
+        onSwitchMode={() => router.push('/auth/login')}
         loading={loading}
       />
     </SafeAreaView>

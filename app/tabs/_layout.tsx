@@ -16,7 +16,7 @@ export default function TabsLayout() {
 
   // Redirect to auth if user is not authenticated
   if (!user) {
-    return <Redirect href="/auth/login" />; // changed from "/(auth)/login"
+    return <Redirect href="/auth/login" />; 
   }
 
   return (

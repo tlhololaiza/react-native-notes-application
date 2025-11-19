@@ -39,7 +39,7 @@ export default function LoginScreen() {
         onEmailChange={setEmail}
         onPasswordChange={setPassword}
         onSubmit={handleLogin}
-        onSwitchMode={() => router.push('/(auth)/register')}
+        onSwitchMode={() => router.push('/auth/register')}
         loading={loading}
       />
     </SafeAreaView>
