@@ -1,5 +1,5 @@
 import { Redirect, Tabs } from 'expo-router';
-import { ActivityIndicator, View } from 'react-native';
+import { ActivityIndicator, Text, View } from 'react-native';
 import { Colors } from '../../constants/Colors';
 import { useAuth } from '../../hooks/useAuth';
 
@@ -16,7 +16,7 @@ export default function TabsLayout() {
 
   // Redirect to auth if user is not authenticated
   if (!user) {
-    return <Redirect href="/(auth)/login" />;
+    return <Redirect href="/auth/login" />; // changed from "/(auth)/login"
   }
 
   return (
