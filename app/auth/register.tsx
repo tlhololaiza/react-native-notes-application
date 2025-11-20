@@ -23,11 +23,9 @@ export default function RegisterScreen() {
     setLoading(true);
     try {
       await register(email.trim(), password, username.trim());
-      Alert.alert(
-        'Success', 
-        'Account created successfully! Please login.',
-        [{ text: 'OK', onPress: () => router.push('/auth/login') }]
-      );
+      console.log('Registration successful, redirecting to login');
+      Alert.alert('Success', 'Account created successfully! Please login.');
+      router.replace('/auth/login');
     } catch (error: any) {
       Alert.alert('Registration Failed', error.message);
     } finally {

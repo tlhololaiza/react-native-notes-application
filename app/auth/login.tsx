@@ -22,7 +22,9 @@ export default function LoginScreen() {
     setLoading(true);
     try {
       await login(email.trim(), password);
-      // Navigation happens automatically via auth state change
+      // Ensure navigation on web and in case auth state propagation is delayed
+      console.log('Login successful, navigating to /tabs');
+      router.replace('/tabs');
     } catch (error: any) {
       Alert.alert('Login Failed', error.message || 'Invalid credentials');
     } finally {
