@@ -1,4 +1,3 @@
-import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { CATEGORY_COLORS } from '../../constants/Categories';
 import { Category } from '../../types/note.types';

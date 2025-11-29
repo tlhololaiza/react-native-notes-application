@@ -1,5 +1,5 @@
 import { useRouter } from 'expo-router';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Alert, SafeAreaView, StyleSheet } from 'react-native';
 import { AuthForm } from '../../components/auth/AuthForm';
 import { Colors } from '../../constants/Colors';
