@@ -38,4 +38,4 @@ npx expo start
 ```
 
 🤖 Android app:
-https://expo.dev/accounts/tlhololaiza/projects/react-native-notes-application/builds/e0409136-fa5c-4fa8-954c-1b9b3bf836af
+https://expo.dev/artifacts/eas/mGVQQQWEJrVYTQsm2tpJW9.aab
