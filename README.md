@@ -38,4 +38,4 @@ npx expo start
 ```
 
 🤖 Android app:
-https://expo.dev/artifacts/eas/mGVQQQWEJrVYTQsm2tpJW9.aab
+https://expo.dev/artifacts/eas/xdBxgPC1GwrwjQhCxn3atT.apk
